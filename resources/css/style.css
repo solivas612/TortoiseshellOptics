@@ -1,0 +1,85 @@
+/* Universal Styles */
+
+html, body {
+  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 1.4;
+}
+
+.heading, .item {
+  background-color: cadetblue;
+  color: white;
+}
+
+/* Main Banner Section */
+
+.banner {
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0rem 0rem 0rem;
+}
+
+.brand, nav {
+  display: flex;
+  align-items: center;
+}
+
+.brand img {
+  height: 1.5rem;
+  width: auto;
+  padding: 0rem 1rem 0rem 2rem;
+}
+
+span {
+  padding: 1rem 2rem;
+}
+
+.slogan {
+  background-color: white;
+  margin-top: 10rem;
+
+}
+
+.slogan h1 {
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Icon Section */
+
+.icons {
+  display: flex;
+  justify-content: center;
+
+}
+
+.characteristics {
+  min-height: 8rem;
+  width: auto;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.characteristics .exams {
+  width: 3.5rem;
+}
+
+.characteristics img {
+  width: 5rem;
+}
