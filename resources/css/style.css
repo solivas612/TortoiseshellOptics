@@ -146,8 +146,37 @@ span {
 
 /* Tablet Query Section */
 
-@media only screen and (max-width: 1012) {
-  
+@media only screen and (max-width: 1024px) {
+
+  .content {
+    width: 100%;
+  }
+
+  .banner {
+    height: 22rem;
+  }
+
+  .heading {
+    margin-right: 0rem;
+    width: 100%;
+  }
+
+  .slogan {
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+
+  .slogan h1 {
+    padding: 0.75rem 4rem;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.33;
+    text-align: center;
+  }
 }
 
 /* Mobile Query Section */
+
+@media only screen and (max-width: 660px) {
+
+}
