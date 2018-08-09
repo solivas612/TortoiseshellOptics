@@ -11,6 +11,11 @@ html, body {
   color: white;
 }
 
+.content {
+  width: 1032px;
+  display: flex;
+}
+
 /* Main Banner Section */
 
 .banner {
@@ -23,10 +28,16 @@ html, body {
   justify-content: center;
 }
 
+.banner .content {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .heading {
   display: flex;
   justify-content: space-between;
-  margin: 1rem 0rem 0rem 0rem;
+  margin: 1rem 2rem 0rem 0rem;
+  width: 960px;
 }
 
 .brand, nav {
@@ -47,7 +58,8 @@ span {
 .slogan {
   background-color: white;
   margin-top: 10rem;
-
+  display: block;
+  width: 60%;
 }
 
 .slogan h1 {
@@ -68,7 +80,7 @@ span {
 
 .characteristics {
   min-height: 8rem;
-  width: auto;
+  width: 5rem;
   padding: 3rem;
   display: flex;
   flex-direction: column;
@@ -76,10 +88,66 @@ span {
   align-items: center;
 }
 
+.characteristics img {
+  width: 5rem;
+}
+
 .characteristics .exams {
   width: 3.5rem;
 }
 
-.characteristics img {
-  width: 5rem;
+.characteristics p {
+  text-align: center;
 }
+
+/* About Section */
+
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+.about .category {
+  width: 35%;
+  margin-right: 5%;
+}
+
+.about .category .item {
+  font-weight: bold;
+  font-size: 1rem;
+  width: 10rem;
+  padding-left: 1.25rem;
+  padding-top: 0.50rem;
+  padding-bottom: 0.50rem;
+  margin-bottom: 1rem;
+}
+
+.item h4 {
+  font-size: 1rem;
+}
+
+/* Copyright Secion */
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright .content {
+  background-color: azure;
+  margin-top: 5rem;
+  align-items: center;
+}
+
+.copyright .content img {
+  padding: 4rem 1rem 4rem 4rem;
+  height: 1.5rem;
+}
+
+/* Tablet Query Section */
+
+@media only screen and (max-width: 1012) {
+  
+}
+
+/* Mobile Query Section */
